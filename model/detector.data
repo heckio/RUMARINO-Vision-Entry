@@ -1,5 +1,5 @@
 classes=1
-train=train.txt
-valid=test.txt
-names=custom.names
-backup=/weights/
+train=/home/ed/RUMARINO-Vision-Entry/src/train.txt
+valid=/home/ed/RUMARINO-Vision-Entry/src/test.txt
+names=/home/ed/RUMARINO-Vision-Entry/model/custom.names
+backup=/home/ed/RUMARINO-Vision-Entry/src/

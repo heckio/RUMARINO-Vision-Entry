@@ -15,7 +15,8 @@ def files2list(path, file_extension):
             files.append(file)
     return files
 
-def list2file(file, arr):
+def list2file(file, arr, path):
     with open(file, 'w') as oFile:
         for item in arr:
-            oFile.write(f"{item}\n")
+            oFile.write(path)
+            oFile.write(f"/{item}\n")
